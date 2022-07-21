@@ -1,55 +1,25 @@
 # Initial Commit
 Learning Java, and IntelliJ IDEA & how to handle API calls & Java dependencies. 
 
-# Skeleton Starter for Vaadin
+**Everything up to this point has been from [#Amigoscode YT Spring Boot Tutorial for Beginners (Java Framework)](https://www.youtube.com/watch?v=vtPkZShrvXQ)**
 
-This project can be used as a starting point to create your own Vaadin application.
-It has the necessary dependencies and files to help you get started.
+### Items learned so far from going thru the tutorial
 
-The best way to use it is via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
-There is also a [getting started tutorial](https://vaadin.com/tutorials/getting-started-with-flow) based on this project.
+1. Working with `Java 18` & learning about the `Spring-boot 3.0` framework.
+1. Creating Java Classes and Methods
+1. Creating [Interface classes](https://stackoverflow.com/a/1913647/1896134)
+1. Creating `DAO`'s (Data Access Object)'s
 
-To access it directly from GitHub, clone the repository and import the project to the IDE of your choice as a Maven project. You need to have Java 8 or 11 installed.
+    i. The Data Access Object is basically an object or an interface that provides access to an underlying database or any other persistence storage.
 
-Run using `mvn jetty:run` and open [http://localhost:8080](http://localhost:8080) in the browser.
-
-If you want to run your app locally in the production mode, run `mvn jetty:run -Pproduction`.
-
-### Running Integration Tests
-
-Integration tests are implemented using [Vaadin TestBench](https://vaadin.com/testbench). The tests take a few minutes to run and are therefore included in a separate Maven profile. We recommend running tests with a production build to minimize the chance of development time toolchains affecting test stability. To run the tests using Google Chrome, execute
-
-`mvn verify -Pit,production`
-
-and make sure you have a valid TestBench license installed (you can obtain a 
-trial license from the [trial page](
-https://vaadin.com/trial)).
-
-## Project structure
-
-The project follow Maven's [standard directory layout structure](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html):
-- Under the `srs/main/java` are located Application sources
-    - `AppShell.java` configures the @PWA annotation making the application 
-      installable
-    - `GreetService.java` is a service class
-    - `MainView.java` is an example Vaadin view
-- Under the `srs/test` are located the TestBench test files
-- `src/main/resources` contains configuration files and static resources
-- The `frontend` directory in the root folder contains client-side 
-  dependencies and resource files. Example CSS styles used by the application 
-  are located under `frontend/themes`
-
-## Useful links
-
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorials at [vaadin.com/tutorials](https://vaadin.com/tutorials).
-- Watch training videos and get certified at [vaadin.com/learn/training]( https://vaadin.com/learn/training).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/components](https://vaadin.com/components).
-- Find a collection of solutions to common use cases in [Vaadin Cookbook](https://cookbook.vaadin.com/).
-- Find Add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin/).
-
-For a full Vaadin application example, there are more choices available also from [vaadin.com/start](https://vaadin.com/start) page.
-
+1. Working with `memory` as a Data source
+1. Understanding & working with `Java Imports`
+1. Understanding & working with `Java Depenencies`
+1. Building an interacting with `Restful API` using `Postman` & Browser to view `JSON` results
+1. Installing, Understanding & Using `Docker` on my local machine.
+1. Using `Docker` to Deploy `PostgresSQL` locally
+1. SSH to my created `Docker` instance to use `psql` to run `SQL` commands.
+1. Building Jar files and working with `IntelliJ IDEA CE` as an `IDE` (Integrated Development Environment)
+1. Working thru console errors and identifying problems & resolving issues (Depreciated functions/typos/runtime errors etc.)
+1. Learning about `flywaydb` for database migration.
+1. Learning about `com.zaxxer` & `HikariCP` to connect to my `Postgres` `Database` in `Docker`.
