@@ -1,6 +1,6 @@
-package com.crm.ContactManagementSystem.dao;
+package com.crm.ContactRelationshipManagementSystem.dao;
 
-import com.crm.ContactManagementSystem.model.Person;
+import com.crm.ContactRelationshipManagementSystem.model.Person;
 
 import java.util.List;
 import java.util.Optional;

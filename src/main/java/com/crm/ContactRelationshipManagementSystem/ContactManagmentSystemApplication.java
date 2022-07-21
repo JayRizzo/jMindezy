@@ -1,4 +1,4 @@
-package com.crm.ContactManagementSystem;
+package com.crm.ContactRelationshipManagementSystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

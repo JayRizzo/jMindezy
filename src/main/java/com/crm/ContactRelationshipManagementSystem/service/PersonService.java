@@ -1,11 +1,9 @@
-package com.crm.ContactManagementSystem.service;
-
-import com.crm.ContactManagementSystem.dao.PersonDao;
-import com.crm.ContactManagementSystem.model.Person;
+package com.crm.ContactRelationshipManagementSystem.service;
+import com.crm.ContactRelationshipManagementSystem.dao.PersonDao;
+import com.crm.ContactRelationshipManagementSystem.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -16,7 +14,7 @@ public class PersonService {
     private final PersonDao personDao;
 
     @Autowired
-    public PersonService(@Qualifier("fakeDao") PersonDao personDao) {
+    public PersonService(@Qualifier("postgres") PersonDao personDao) {
         this.personDao = personDao;
     }
 

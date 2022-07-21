@@ -1,4 +1,4 @@
-package com.crm.ContactManagementSystem;
+package com.crm.ContactRelationshipManagementSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

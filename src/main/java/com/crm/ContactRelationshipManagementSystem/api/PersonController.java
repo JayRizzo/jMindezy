@@ -1,7 +1,7 @@
-package com.crm.ContactManagementSystem.api;
+package com.crm.ContactRelationshipManagementSystem.api;
 
-import com.crm.ContactManagementSystem.model.Person;
-import com.crm.ContactManagementSystem.service.PersonService;
+import com.crm.ContactRelationshipManagementSystem.model.Person;
+import com.crm.ContactRelationshipManagementSystem.service.PersonService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +36,6 @@ public class PersonController {
         return personService.getPersonById(id)
                 .orElse(null);
     }
-
     @DeleteMapping(path = "{id}")
     public void deletePersonById(@PathVariable("id") UUID id) {
         personService.deletePerson(id);
